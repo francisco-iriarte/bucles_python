@@ -10,7 +10,6 @@
 # Ejemplos con bucles "for"
 from turtle import clearscreen
 
-
 clearscreen
 # Dado la siguiente lista de colores, utilizar "for"
 # para imprimir en pantalla todos los colores
