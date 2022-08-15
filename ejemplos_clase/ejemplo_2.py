@@ -25,10 +25,12 @@ for i in range(agenda_len):
     if (i % 2) == 0:
         # Índice par, imprimo nombre
         nombre = agenda[i]
+        print(i)
         print("Nombre contacto:", nombre)
     else:
         # Índice impar, imprimo número
         numero = agenda[i]
+        print(i)
         print("Número contacto:", numero)
 
 print("terminamos!")

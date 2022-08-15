@@ -20,7 +20,7 @@ x = 0
 # y utilizar como elemento del "for" cada color
 # for color ...
 for x in range(color):
-    print(colores(x))
+    print(colores[x])
 # Itere el "for" utilizando el tamaño de la lista
 # como parámetro y utilizar el índice para acceder a
 # los elementos de la lista
