@@ -19,12 +19,14 @@
 inicio = int(input('Ingrese el primer número de la secuencia\n'))
 fin = int(input('Ingrese el último número de la secuencia\n'))
 
-cantidad_numeros_positivos = 0  # Inicializo el contador en 0
+if inicio > fin:
+    inicio_1 = fin
+    fin = inicio
+    inicio = inicio_1
 
-# for ... in range(....)
+cantidad_numeros_positivos = 0  # Inicializo el contador en 0
 cantidad_numeros_negativos = 0
 numeros_igual_0 = 0
-# for ... in range(....)
 operando = inicio
 final = fin - inicio 
 # for ... in range(....)
